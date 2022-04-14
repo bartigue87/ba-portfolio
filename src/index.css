@@ -68,3 +68,50 @@ body {
   margin: 0;
   border-bottom: 3px solid #1f1f1f;
 }
+
+.about-section {
+  height: 100vh;
+  max-width: 90%;
+  margin: 0 auto;
+  color: #1f3044;
+}
+
+.about-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.about-header {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2.5em;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
+
+.about-paragraph {
+  line-height: 1.5rem;
+}
+
+.language-logo {
+  height: 150px;
+  margin: 0 auto;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40%;
+  gap: 30px;
+}
+
+.sql-child {
+  grid-column: 1 / -1;
+}
