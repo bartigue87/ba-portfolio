@@ -74,7 +74,7 @@ body {
 }
 
 .about-section {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 90%;
   margin: 0 auto;
   color: #1f3044;
@@ -124,7 +124,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  margin: 40px;
+  margin: 40px 80px;
 }
 
 .project-image {
@@ -133,4 +133,63 @@ body {
   display: flex;
   position: relative;
   margin: auto;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.project-card-info {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 100%;
+  background-color: white;
+  color: black;
+}
+
+.fade-in {
+  animation: fadein 0.5s ease-in;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 10px 10px 20px;
+}
+
+.card-language {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.card-description {
+  width: 90%;
+  text-align: center;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.portfolio {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1f3044;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.project-heading {
+  padding: 50px 0 30px;
 }
