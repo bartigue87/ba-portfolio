@@ -22,11 +22,11 @@ export default function About() {
             autoplay
           ></lottie-player>
           <p className="about-paragraph">
-            My interest in web development started back in 2020 when I chose to
-            enroll in a web development bootcamp. Later that year I completed
-            that training and decided to further my education and eventually
-            earned my Bachelor of Science, Software Development from Western
-            Governors University.
+            My interest in web development started back in 2020 when I enrolled
+            in a web development bootcamp. Later that year I completed that
+            training and decided to further my education and eventually earned
+            my Bachelor of Science, Software Development from Western Governors
+            University.
           </p>
           <p className="about-paragraph">
             Fast-forward to today, and I’ve had the privilege of working at a

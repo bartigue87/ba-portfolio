@@ -159,13 +159,15 @@ body {
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 10px 10px 20px;
+  color: #4a90e2;
 }
 
 .card-language {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  color: #fb9039;
 }
 
 .card-description {
