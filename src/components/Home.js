@@ -20,7 +20,6 @@ export default function Home() {
               width: "200px",
               height: "200px",
               margin: "0 auto",
-              cursor: "pointer",
               transform: "rotate(90deg)",
             }}
             loop
