@@ -17,8 +17,8 @@ export default function Home() {
             background="transparent"
             speed="1"
             style={{
-              width: "200px",
-              height: "200px",
+              width: "150px",
+              height: "150px",
               margin: "0 auto",
               transform: "rotate(90deg)",
             }}

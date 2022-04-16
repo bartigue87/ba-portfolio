@@ -7,6 +7,7 @@ export default function Navbar() {
         <li>About</li>
         <li>Portfolio</li>
         <li>Contact</li>
+        <li>Resume</li>
       </ul>
     </section>
   );

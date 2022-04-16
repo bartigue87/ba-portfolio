@@ -17,7 +17,7 @@ export default function About() {
             src="https://assets5.lottiefiles.com/packages/lf20_btyie10d.json"
             background="transparent"
             speed="1"
-            style={{ width: "300px", height: "300px", margin: "0 auto" }}
+            style={{ width: "240px", height: "240px", margin: "0 auto" }}
             loop
             autoplay
           ></lottie-player>
@@ -40,12 +40,12 @@ export default function About() {
           <img className="language-logo" src={cssLogo} alt="css logo" />
           <img className="language-logo" src={jsLogo} alt="javascript logo" />
           <img className="language-logo" src={reactLogo} alt="react logo" />
-          <img className="language-logo" src={nodeLogo} alt="node logo" />
           <img className="language-logo" src={csharpLogo} alt="c# logo" />
+          <img className="language-logo" src={sqlLogo} alt="postgreSQL logo" />
           <img
             className="language-logo sql-child"
-            src={sqlLogo}
-            alt="postgreSQL logo"
+            src={nodeLogo}
+            alt="node logo"
           />
         </div>
       </div>
