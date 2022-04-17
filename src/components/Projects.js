@@ -13,7 +13,7 @@ export default function Projects(props) {
 
   const styles = {
     transition: "opacity .2s ease-in",
-    opacity: hoverState ? 1 : 0,
+    opacity: props.hoverState ? 1 : 0,
   };
   return (
     <div

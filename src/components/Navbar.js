@@ -15,7 +15,14 @@ export default function Navbar() {
             Projects
           </Link>
         </li>
-        <li className="nav-selection">Résumé</li>
+        <li className="nav-selection">
+          <a
+            className="resume"
+            href="https://docs.google.com/document/d/1mQytwXKVL73NOMdaVcorDZmnzQQJoaZNS475c8lNHfc/edit"
+          >
+            Résumé
+          </a>
+        </li>
       </ul>
     </section>
   );
