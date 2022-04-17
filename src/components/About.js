@@ -9,7 +9,7 @@ import sqlLogo from "../images/postgreSQL-logo.png";
 
 export default function About() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <h2 className="about-header">About</h2>
       <div className="about-container">
         <div className="left-side">

@@ -7,7 +7,7 @@ export default function Portfolio() {
     return <Projects key={project.title} {...project} />;
   });
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="projects">
       <h2 className="about-header project-heading">Projects</h2>
       <section className="projects-section">{project}</section>
     </div>
