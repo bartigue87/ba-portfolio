@@ -212,7 +212,7 @@ body {
 @media screen and (max-width: 700px) {
   .introduction {
     font-size: 2.5rem;
-    width: 95%;
+    width: 96%;
   }
 
   .footer__social-image {
@@ -254,5 +254,14 @@ body {
 
   .projects-section {
     margin: 0;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-description {
+    font-size: 0.8rem;
+  }
+  .card-language {
+    font-size: 0.7rem;
   }
 }
