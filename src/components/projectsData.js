@@ -5,6 +5,8 @@ import moveieSeat from "../images/movieseat.png";
 import pacman from "../images/pacman.png";
 import ranJokes from "../images/ranjokes.png";
 import slapjack from "../images/slapjack.png";
+import aec from "../images/aec.png";
+import sync from "../images/sync.png";
 
 const images = [
   falafel,
@@ -14,6 +16,8 @@ const images = [
   pacman,
   ranJokes,
   slapjack,
+  aec,
+  sync,
 ];
 
 const image = images.map((image) => {
@@ -21,6 +25,22 @@ const image = images.map((image) => {
 });
 
 const projects = [
+  {
+    image: image[7],
+    title: "Adobe Experience Cloud 'Sim'",
+    languages: "HTML/CSS/JavaScript",
+    description:
+      "Simulation built for Adobe showcasing their 'Adobe Experience Cloud' product. Embedded on their website.",
+    isActive: false,
+  },
+  {
+    image: image[8],
+    title: "Poly Sync 'Sim'",
+    languages: "HTML/CSS/JavaScript",
+    description:
+      "Simulation built for Poly showcasing their 'Sync' product. Embedded on their website.",
+    isActive: false,
+  },
   {
     image: image[0],
     title: "The Green Falafel",
