@@ -7,6 +7,7 @@ import ranJokes from "../images/ranjokes.png";
 import slapjack from "../images/slapjack.png";
 import aec from "../images/aec.png";
 import sync from "../images/sync.png";
+import retail from "../images/retail.png";
 
 const images = [
   falafel,
@@ -18,13 +19,22 @@ const images = [
   slapjack,
   aec,
   sync,
+  retail,
 ];
 
 const image = images.map((image) => {
   return <img src={image} alt="" className="project-image" />;
 });
-
+console.log(image);
 const projects = [
+  {
+    image: image[9],
+    title: "Verizon Connected Retail 'Sim'",
+    languages: "HTML/CSS/JavaScript",
+    description:
+      "Simulation built for Verizon showcasing their 'Connected Retail' product. Embedded on their website.",
+    isActive: false,
+  },
   {
     image: image[7],
     title: "Adobe Experience Cloud 'Sim'",
