@@ -26,6 +26,11 @@ export default function Projects(props) {
         <h4 className="card-title">{props.title}</h4>
         <h6 className="card-language">{props.languages}</h6>
         <p className="card-description">{props.description}</p>
+        {props.link !== "" && (
+          <a href={props.link} target="_blank" rel="noreferrer">
+            <button className="card-btn">Check it out</button>
+          </a>
+        )}
       </div>
     </div>
   );

@@ -34,6 +34,7 @@ const projects = [
     description:
       "Simulation built for Verizon showcasing their 'Connected Retail' product. Embedded on their website.",
     isActive: false,
+    link: "https://www.verizon.com/business/solutions/industry/retail/",
   },
   {
     image: image[7],
@@ -42,6 +43,7 @@ const projects = [
     description:
       "Simulation built for Adobe showcasing their 'Adobe Experience Cloud' product. Embedded on their website.",
     isActive: false,
+    link: "https://business.adobe.com/resources/personalization-at-scale-interactive-tour/thank-you.html?faas_unique_submission_id=092D4D24-1857-1562-A7CD-0BBB96609D2A",
   },
   {
     image: image[8],
@@ -50,14 +52,16 @@ const projects = [
     description:
       "Simulation built for Poly showcasing their 'Sync' product. Embedded on their website.",
     isActive: false,
+    link: "https://www.poly.com/us/en/products/phones/sync",
   },
   {
     image: image[0],
     title: "The Green Falafel",
     languages: "React",
     description:
-      "Website for the food truck based in Salt Lake City, Utah: The Green Falafel",
+      "Collaborative website for the food truck based in Salt Lake City, Utah: The Green Falafel.",
     isActive: false,
+    link: "http://www.thegreenfalafel.surge.sh/",
   },
   {
     image: image[1],
@@ -66,6 +70,7 @@ const projects = [
     description:
       "Personal journal documenting my visits to the National Parks in the USA",
     isActive: false,
+    link: "",
   },
   {
     image: image[2],
@@ -74,6 +79,7 @@ const projects = [
     description:
       "Collaborative full stack website where farmers offer produce boxes. Also has a recipe finder that pulls from an api.",
     isActive: false,
+    link: "https://farm2table.herokuapp.com/",
   },
   {
     image: image[6],
@@ -81,6 +87,7 @@ const projects = [
     languages: "HTML/CSS/JavaScript",
     description: "Slapjack card game",
     isActive: false,
+    link: "http://slapjackgame.surge.sh",
   },
   {
     image: image[3],
@@ -89,6 +96,7 @@ const projects = [
     description:
       "Movie seat selector UI like you see on movie theater websites.",
     isActive: false,
+    link: "http://movie-seat.surge.sh",
   },
   {
     image: image[4],
@@ -96,6 +104,7 @@ const projects = [
     languages: "HTML/CSS/JavaSript",
     description: "Classic Pacman game",
     isActive: false,
+    link: "http://pacmangame.surge.sh",
   },
   {
     image: image[5],
@@ -104,6 +113,7 @@ const projects = [
     description:
       "What the title implies, get a random joke with the press of a button! Utilizes fetch and async/await.",
     isActive: false,
+    link: "",
   },
 ];
 
