@@ -2,13 +2,15 @@ import React, { useState } from "react";
 
 export default function Projects(props) {
   const [hoverState, setHoverState] = useState(props.isActive);
+  const [isDisabled, setIsDisabled] = useState(true);
 
   function handleHover() {
     setHoverState((prevState) => !prevState);
-    console.log("hello");
+    setIsDisabled((prevState) => !prevState);
   }
   function handleHoverLeave() {
     setHoverState((prevState) => !prevState);
+    setIsDisabled((prevState) => !prevState);
   }
 
   const styles = {
@@ -28,7 +30,9 @@ export default function Projects(props) {
         <p className="card-description">{props.description}</p>
         {props.link !== "" && (
           <a href={props.link} target="_blank" rel="noreferrer">
-            <button className="card-btn">Check it out</button>
+            <button className="card-btn" disabled={isDisabled}>
+              Check it out
+            </button>
           </a>
         )}
       </div>
