@@ -17,6 +17,11 @@ export default function Projects(props) {
     transition: "opacity .2s ease-in",
     opacity: hoverState ? 1 : 0,
   };
+
+  const linkDisplay = {
+    display: isDisabled ? "none" : "inherit",
+    textDecoration: "none",
+  };
   return (
     <div
       className="project-card"
@@ -29,8 +34,17 @@ export default function Projects(props) {
         <h6 className="card-language">{props.languages}</h6>
         <p className="card-description">{props.description}</p>
         {props.link !== "" && (
-          <a href={props.link} target="_blank" rel="noreferrer">
-            <button className="card-btn" disabled={isDisabled}>
+          <a
+            href={props.link}
+            style={linkDisplay}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              className="card-btn"
+              styles={linkDisplay}
+              disabled={isDisabled}
+            >
               Check it out
             </button>
           </a>
