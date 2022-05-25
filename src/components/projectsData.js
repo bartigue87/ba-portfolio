@@ -8,6 +8,7 @@ import slapjack from "../images/slapjack.png";
 import aec from "../images/aec.png";
 import sync from "../images/sync.png";
 import retail from "../images/retail.png";
+import hiveDFS from "../images/hiveDFS.png";
 
 const images = [
   falafel,
@@ -20,6 +21,7 @@ const images = [
   aec,
   sync,
   retail,
+  hiveDFS,
 ];
 
 const image = images.map((image) => {
@@ -27,6 +29,15 @@ const image = images.map((image) => {
 });
 console.log(image);
 const projects = [
+  {
+    image: image[10],
+    title: "DFS Hive",
+    languages: "React",
+    description:
+      "Fun project I am working on. Will host a bankroll manager tool and articles I write to help with daily fantasy sports and betting.",
+    isActive: false,
+    link: "https://bartigue87.github.io/brm-tracker/",
+  },
   {
     image: image[9],
     title: "Verizon Connected Retail 'Sim'",

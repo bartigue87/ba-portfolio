@@ -23,13 +23,14 @@ export default function Projects(props) {
     textDecoration: "none",
   };
   return (
-    <div
-      className="project-card"
-      onMouseOver={handleHover}
-      onMouseOut={handleHoverLeave}
-    >
+    <div className="project-card">
       {props.image}
-      <div className="project-card-info" style={styles}>
+      <div
+        className="project-card-info"
+        style={styles}
+        onMouseOver={handleHover}
+        onMouseOut={handleHoverLeave}
+      >
         <h4 className="card-title">{props.title}</h4>
         <h6 className="card-language">{props.languages}</h6>
         <p className="card-description">{props.description}</p>
