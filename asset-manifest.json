@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/ba-portfolio/static/css/main.c72ac417.css",
-    "main.js": "/ba-portfolio/static/js/main.00b3accc.js",
+    "main.js": "/ba-portfolio/static/js/main.637507e2.js",
     "static/media/farm.png": "/ba-portfolio/static/media/farm.c7c5ec4816d8753b2774.png",
     "static/media/header.png": "/ba-portfolio/static/media/header.a1be2505f94eb19de60b.png",
     "static/media/sync.png": "/ba-portfolio/static/media/sync.0853988cb6e96aef8a0b.png",
     "static/media/slapjack.png": "/ba-portfolio/static/media/slapjack.adb4d3d3bfcab6ece370.png",
+    "static/media/hiveDFS.png": "/ba-portfolio/static/media/hiveDFS.0cb0f57f35ae765b5e4d.png",
     "static/media/aec.png": "/ba-portfolio/static/media/aec.6dc1198df20d4f2d46dc.png",
     "static/media/retail.png": "/ba-portfolio/static/media/retail.7d09f342e86b87e412bd.png",
     "static/media/ranjokes.png": "/ba-portfolio/static/media/ranjokes.fc487e949f3ceefd77c2.png",
@@ -24,10 +25,10 @@
     "static/media/github.svg": "/ba-portfolio/static/media/github.036bd1c01e400084b935d18e6efb4e79.svg",
     "static/media/linkedin.svg": "/ba-portfolio/static/media/linkedin.b402a4461e7c3172dd2aaa49c0673aaa.svg",
     "main.c72ac417.css.map": "/ba-portfolio/static/css/main.c72ac417.css.map",
-    "main.00b3accc.js.map": "/ba-portfolio/static/js/main.00b3accc.js.map"
+    "main.637507e2.js.map": "/ba-portfolio/static/js/main.637507e2.js.map"
   },
   "entrypoints": [
     "static/css/main.c72ac417.css",
-    "static/js/main.00b3accc.js"
+    "static/js/main.637507e2.js"
   ]
 }
