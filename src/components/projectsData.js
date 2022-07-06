@@ -36,7 +36,7 @@ const projects = [
     description:
       "Fun project I am working on. Will host a bankroll manager tool and articles I write to help with daily fantasy sports and betting.",
     isActive: false,
-    link: "https://bartigue87.github.io/brm-tracker/",
+    link: "https://dfs-hive.web.app",
   },
   {
     image: image[9],
