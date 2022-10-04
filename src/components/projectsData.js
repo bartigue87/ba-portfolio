@@ -30,6 +30,15 @@ const image = images.map((image) => {
 console.log(image);
 const projects = [
   {
+    image: image[11],
+    title: "Coffeeroasters",
+    languages: "HTML, CSS, JavaScript",
+    description:
+      "3 page subscription site with responsiveness and an interactive subscription page.",
+    isActive: false,
+    link: "https://bartigue87.github.io/coffeeroasters/",
+  },
+  {
     image: image[10],
     title: "DFS Hive",
     languages: "React",
